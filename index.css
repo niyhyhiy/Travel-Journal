@@ -1,0 +1,90 @@
+html,
+body {
+  margin: 0;
+}
+
+body {
+  font-family: "Inter";
+}
+
+.container {
+  margin: 45px 40px;
+}
+
+header {
+  background-color: #f55a5a;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+}
+
+.logo {
+  width: 2rem;
+  padding-right: 0.5rem;
+}
+
+header h1 {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+article.journal-entry {
+  display: flex;
+  margin-bottom: 36px;
+}
+
+article.journal-entry .marker {
+  width: 7px;
+  margin-right: 4px;
+}
+
+article.journal-entry .main-image-container {
+  width: 125px;
+  height: 168px;
+  overflow: hidden;
+  border-radius: 5px;
+  flex-shrink: 0;
+  margin-right: 19px;
+}
+
+article.journal-entry .main-images {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+article.journal-entry span.country {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  margin-right: 12px;
+}
+
+.info-container a {
+  color: #2b283a;
+  font-size: 0.7rem;
+}
+
+.info-container a:visited {
+  color: #918e9b;
+}
+
+.entery-title {
+  margin-top: 7px;
+  margin-bottom: 17px;
+}
+
+p.trip-dates {
+  font-weight: bold;
+}
+
+.info-container .entry_text {
+  font-size: 0.8rem;
+  color: #2b283a;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  line-height: 1.5;
+}
