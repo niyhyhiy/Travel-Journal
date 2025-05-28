@@ -10,7 +10,7 @@ export default function Entry(props) {
           />
         </div>
         <div className="info-container">
-          <img className="marker" src="../images/marker.png" alt="" />
+          <img className="marker" src="../public/images/marker.png" alt="" />
 
           <span className="country">japan</span>
           <a href={props.googleMapLink}>View on Google Maps</a>
